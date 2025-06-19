@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterForm</class>
+ <widget class="QWidget" name="RegisterForm">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="labelUser"><property name="text"><string>Username:</string></property></widget></item>
+   <item><widget class="QLineEdit" name="loginEdit"/></item>
+   <item><widget class="QLabel" name="labelPass"><property name="text"><string>Password:</string></property></widget></item>
+   <item><widget class="QLineEdit" name="passwordEdit"><property name="echoMode"><enum>QLineEdit::Password</enum></property></widget></item>
+   <item><widget class="QPushButton" name="registerButton"><property name="text"><string>Register</string></property></widget></item>
+   <item><widget class="QLabel" name="statusLabel"/></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

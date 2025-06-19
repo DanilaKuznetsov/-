@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WeatherForm</class>
+ <widget class="QWidget" name="WeatherForm">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="labelCity"><property name="text"><string>City:</string></property></widget></item>
+   <item><widget class="QLineEdit" name="cityEdit"/></item>
+   <item><widget class="QLabel" name="labelDays"><property name="text"><string>Days:</string></property></widget></item>
+   <item><widget class="QLineEdit" name="daysEdit"/></item>
+   <item><widget class="QPushButton" name="weatherButton"><property name="text"><string>Get Weather</string></property></widget></item>
+   <item><widget class="QTextEdit" name="output"><property name="readOnly"><bool>true</bool></property></widget></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
